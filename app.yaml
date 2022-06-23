@@ -1,9 +1,10 @@
-runtime: php81 # Replace with php74 to use PHP 7.4
-
-handlers:
-# Serve a directory as a static resource.
-- url: /stylesheets
-  static_dir: stylesheets
+runtime: php8.0.7 # Replace with php74 to use PHP 7.4
+api_version: 1
+threadsafe: true
+# handlers:
+# # Serve a directory as a static resource.
+# - url: /stylesheets
+#   static_dir: stylesheets
 
 
 # Serve images as static resources.
@@ -12,5 +13,5 @@ handlers:
   upload: .+\.(gif|png|jpg)$
 
 # Serve your app through a front controller at index.php or public/index.php.
-- url: .*
-  script: auto
+- url: /.*
+  script: index.php
