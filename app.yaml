@@ -2,9 +2,19 @@ runtime: php81 # Replace with php74 to use PHP 7.4
 
 handlers:
 # Serve a directory as a static resource.
-- url: /stylesheets
-  static_dir: stylesheets
+# - url: /stylesheets
+#   static_dir: stylesheets
+- url: /assets
+  static_dir: assets
 
+- url: /css
+  static_dir: css
+
+- url: /js
+  static_dir: js
+
+- url: /style
+  static_dir: style
 
 # Serve images as static resources.
 - url: /(.+\.(gif|png|jpg))$
