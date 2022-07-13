@@ -1,3 +1,4 @@
+<?php
 <!DOCTYPE html>
 <html lang="en">
 
@@ -184,3 +185,4 @@
 <script src="js/index.js"></script>
 
 </html>
+?>
