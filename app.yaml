@@ -1,13 +1,13 @@
-runtime: php55
+runtime: php72
 
 handlers:
 - url: /styles
   static_dir: style
   
-- url: /(.*\.(svg|gif|png|jpg))
+- url: /(.*\.(svg|gif|png|jpg))$
   mime_type: image/gif|png|jpg
   static_files: assets/img/\1
-  upload: assets/img/(.*\.(gif|png|jpg))
+  upload: assets/img/(.*\.(gif|png|jpg))$
   
 - url: /.*
   script: index.php
