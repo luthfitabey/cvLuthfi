@@ -4,7 +4,8 @@ handlers:
 - url: /styles
   static_dir: styles
   
-- url: /images/(.*\.(gif|png|jpg))
+- url: /(.*\.(svg|gif|png|jpg))
+  mime_type: image/png
   static_files: assets/img/\1
   upload: assets/img/(.*\.(gif|png|jpg))
   
