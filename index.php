@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<?Php
 <html lang="en">
 
 <head>
@@ -184,5 +183,4 @@
 </body>
 <script src="js/index.js"></script>
 
-?>
 </html>
