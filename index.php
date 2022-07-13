@@ -1,5 +1,9 @@
 <!DOCTYPE html>
+<<<<<<< HEAD
+<?Php>
+=======
 <?Php
+>>>>>>> eb3bd47f126ed6590609012f9b2743c43dcffa9f
 <html lang="en">
 
 <head>
